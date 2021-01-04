@@ -7,14 +7,13 @@ font-family: 'Roboto', sans-serif; */
 body {
     margin: 0;
     height: 100vh;
-    padding-top: 2.67%;
-    padding-left: 2.25%;
     min-height: 600px;
     min-width: 1100px;
     display: flex;
+    justify-content: space-between;
 }
 header {
-    margin-left: 8%;
+    margin-top: 2.67%;
     height: 21.25%;
     width: 43.06%;
     display: flex;
@@ -47,12 +46,15 @@ header img {
     margin-left: 55%;
 }
 nav {
+    margin-top: 2.67%;
+    margin-left: 2.25%;
+    margin-bottom: 2.67%;
     width: 9.17%;
-    height: 94.79%;
+    height: 94.66%;
     padding: 4.5vh 0 4.5vh 0;
     background-color: black;
     border-radius: 24px;
-    box-shadow: 2.5vw 3.5vh 70px #bdbdbd;
+    box-shadow: 1.5vw 3.5vh 60px #b4b4b4;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,7 +66,96 @@ nav {
     flex-direction: column;
     gap: 7vh;
 }
+a {
+    outline: none;
+}
 a:hover {
     transform: scale(1.2);
+    transition: ease-in-out 0.2s;
+    outline: none;
+}
+.search-count {
+    margin-top: 2.67%;
+    margin-right: 5.55%;
+    height: 21.25%;
+    width: 30.56%;
+    display: flex;
+    align-items: flex-end;
+}
+.search-count-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 84%;
+}
+form {
+    position: relative;
+    width: 68.18%;
+    margin-right: 4%;
+}
+.search {
+    height: 40px;
+    width: 100%;
+    background: #F5F5F7;
+    padding-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+.search-button {
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    outline: none;
+    border: none;
+}
+.navform {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.navform button {
+    height: 40px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+.navform button:hover {
+    transform: scale(1.2);
     transition: ease-in-out 0.2s
+}
+.count-box {
+    height: 60.21%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.count {
+    width: 47.27%;
+    background-color: #F5F5F7;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.77vw;
+}
+.count h2 {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 64px;
+    margin: 0;
+}
+.count p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    vertical-align: center;
 }
