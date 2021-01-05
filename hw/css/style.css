@@ -186,9 +186,9 @@ form {
     align-items: center;
 }
 .flag {
-    margin-left: 1.7%;
-    margin-right: 4.8%;
-    width: 12.79%;
+    margin-left: 0.59vw;
+    margin-right: 1.66vw;
+    width: 4.44vw;
     height: 80%;
     display: flex;
     align-items: center;
@@ -197,7 +197,8 @@ form {
     border-radius: 12px;
 }
 .course-name {
-    width: 26.99%;
+    width: 10.49vw;
+    margin-right: 2.01vw;
 }
 .course-name h4 {
     font-family: 'Baloo Bhai 2', cursive;
@@ -210,7 +211,6 @@ form {
     margin: 0;
 }
 .learn-progress {
-    margin-left: 8.99%;
     margin-right: 7.99%;
     display: flex;
     justify-content: center;
@@ -225,9 +225,9 @@ form {
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
 }
-.progress-bar button {
+main button {
     height: 50%;
-    width: 23.99%;
+    width: 8.33vw;
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
@@ -237,7 +237,7 @@ form {
     outline: none;
     background-color: black;
 }
-.progress-bar button:hover {
+main button:hover {
     transition: ease-in-out 0.4s;
     cursor: pointer;
     color: black;
@@ -247,6 +247,8 @@ form {
 .slider-buttons {
     padding: 0;
     margin: 0;
+    width: auto;
+    height: auto;
     border: none;
     background-color: transparent;
     outline: none;
@@ -255,4 +257,65 @@ form {
     transform: scale(1.1);
     transition: ease-in-out 0.2s;
     cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.course-list {
+    margin-top: 3vh;
+    height: 59.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+h3 {
+    margin: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 24px;
+}
+.course-names {
+    display: flex;
+    flex-direction: row;
+    gap: 4.84%;
+    color: rgba(0, 0, 0, 0.3);
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+    font-size: 16px;
+}
+.course-names p {
+    margin: 0;
+}
+.course-names p:first-child {
+    color: black;
+}
+.course-names p:hover {
+    color: black;
+    cursor: pointer;
+}
+.course-item {
+    height: 8.89vh;
+    background-color: #F5F5F7;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+.clock {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.55vw;
+    width: 6.5vw;
+    margin-right: 2.68vw;
+}
+.popularity {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.55vw;
+    margin-right: 2.3vw;
 }
