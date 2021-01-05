@@ -12,10 +12,44 @@ body {
     display: flex;
     justify-content: space-between;
 }
-header {
-    margin-top: 2.67%;
-    height: 21.25%;
+nav {
+    margin-top: 2.66vh;
+    margin-left: 2.25vw;
+    width: 9.17%;
+    height: 94.66%;
+    padding: 4.5vh 0 4.5vh 0;
+    background-color: black;
+    border-radius: 24px;
+    box-shadow: 1.5vw 3.5vh 60px #b4b4b4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-buttons {
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 7vh;
+}
+main {
+    margin-top: 2.66vh;
+    margin-left: 1vw;
+    display: flex;
+    flex-direction: column;
     width: 43.06%;
+    height: 97.34vh;
+}
+aside {
+    margin-top: 2.66vh;
+    margin-right: 5.55vw;
+    display: flex;
+    flex-direction: column;
+    width: 30.48%;
+    height: 97.34vh;
+}
+header {
+    height: 21.25%;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -45,27 +79,6 @@ header img {
     height: 100%;
     margin-left: 55%;
 }
-nav {
-    margin-top: 2.67%;
-    margin-left: 2.25%;
-    margin-bottom: 2.67%;
-    width: 9.17%;
-    height: 94.66%;
-    padding: 4.5vh 0 4.5vh 0;
-    background-color: black;
-    border-radius: 24px;
-    box-shadow: 1.5vw 3.5vh 60px #b4b4b4;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-.nav-buttons {
-    margin-bottom: 10vh;
-    display: flex;
-    flex-direction: column;
-    gap: 7vh;
-}
 a {
     outline: none;
 }
@@ -75,10 +88,7 @@ a:hover {
     outline: none;
 }
 .search-count {
-    margin-top: 2.67%;
-    margin-right: 5.55%;
     height: 21.25%;
-    width: 30.56%;
     display: flex;
     align-items: flex-end;
 }
@@ -158,4 +168,91 @@ form {
     font-size: 16px;
     margin: 0;
     vertical-align: center;
+}
+.progress {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.67vh;
+    height: 8.89%;
+}
+.progress-bar {
+    width: 80.65%;
+    height: 100%;
+    background-color: #F5F5F7;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.flag {
+    margin-left: 1.7%;
+    margin-right: 4.8%;
+    width: 12.79%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 12px;
+}
+.course-name {
+    width: 26.99%;
+}
+.course-name h4 {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 16px;
+    margin: 0;
+}
+.course-name p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    margin: 0;
+}
+.learn-progress {
+    margin-left: 8.99%;
+    margin-right: 7.99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.learn-progress p {
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+.progress-bar button {
+    height: 50%;
+    width: 23.99%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background-color: black;
+}
+.progress-bar button:hover {
+    transition: ease-in-out 0.4s;
+    cursor: pointer;
+    color: black;
+    border: 1px solid black;
+    background-color: transparent;
+}
+.slider-buttons {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.slider-buttons:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
 }
