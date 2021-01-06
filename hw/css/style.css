@@ -202,12 +202,12 @@ form {
 }
 .course-name h4 {
     font-family: 'Baloo Bhai 2', cursive;
-    font-size: 16px;
+    font-size: 1.10vw;
     margin: 0;
 }
 .course-name p {
     font-family: 'Roboto', sans-serif;
-    font-size: 13px;
+    font-size: 0.9vw;
     margin: 0;
 }
 .learn-progress {
@@ -226,7 +226,7 @@ form {
     font-size: 13px;
 }
 main button {
-    height: 50%;
+    height: 4.44vh;
     width: 8.33vw;
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -271,12 +271,13 @@ main button:hover {
 h3 {
     margin: 0;
     font-family: 'Baloo Bhai 2', cursive;
-    font-size: 24px;
+    font-size: 1.66vw;
 }
 .course-names {
     display: flex;
     flex-direction: row;
-    gap: 4.84%;
+    align-items: center;
+    gap: 2.06vw;
     color: rgba(0, 0, 0, 0.3);
     font-family: 'Baloo Bhai 2', cursive;
     font-weight: bold;
@@ -300,7 +301,7 @@ h3 {
     flex-direction: row;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 13px;
+    font-size: 0.9vw;
 }
 .clock {
     display: flex;
@@ -309,7 +310,7 @@ h3 {
     align-items: center;
     gap: 0.55vw;
     width: 6.5vw;
-    margin-right: 2.68vw;
+    margin-right: 2vw;
 }
 .popularity {
     display: flex;
@@ -318,4 +319,81 @@ h3 {
     align-items: center;
     gap: 0.55vw;
     margin-right: 2.3vw;
+}
+.figure {
+    margin-top: 4.45vh;
+    width: 100%;
+    height: 42.06vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.figure button {
+    padding: 0;
+    width: 6.11vw;
+    height: 3.56vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #F5F5F7;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.38vw;
+    outline: none;
+}
+.figure button:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+.chart {
+    width:100%;
+}
+.figure-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.premium {
+    margin-top: 5.9vh;
+    width: 100%;
+    height: 21.44vh;
+    border-radius: 14px;
+    background-color: #F5F5F7;
+    display: flex;
+    flex-direction: row;
+    gap: 4.47vw;
+    justify-content: center;
+    align-items: center;
+}
+.premium button {
+    padding: 0;
+    height: 4.44vh;
+    width: 8.33vw;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background-color: black;
+}
+.premium button:hover {
+    transition: ease-in-out 0.4s;
+    cursor: pointer;
+    color: black;
+    border: 1px solid black;
+    background-color: transparent;
+}
+.premium p {
+    margin: 0;
+    width: 12.5vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.11vw;
+    margin-bottom: 2.69vh;
 }
